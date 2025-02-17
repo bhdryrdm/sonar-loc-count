@@ -7,7 +7,7 @@
 #  @paramtype   : user, token,workspace ,reponame and optional <projects>                          #
 #  @argument    :                                                                                  #
 #  @description : Get Number ligne of Code in Bitbucket DevOPS                                     #
-#  @usage : ./bitbucket_org.sh <user> <token> <workspace> and optional <repoName>                  #                                                              
+#  @usage : ./bitbucket_org.ps1 <user> <token> <workspace> and optional <repoName>                  #                                                              
 #                                                                                                  #
 #                                                                                                  #
 #                                                                        #
@@ -28,7 +28,7 @@ $BaseAPI1="bitbucket.org"
 
 
 if ($args.Length -lt 4) {
-  Write-Output ('Usage: bitbucket_com.ps1  <user> <PasswordToken> <workspace> and optional <repoName>')
+  Write-Output ('Usage: bitbucket_org.ps1  <user> <PasswordToken> <workspace> and optional <repoName>')
 } 
 else {
 
