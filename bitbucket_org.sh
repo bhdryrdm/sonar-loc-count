@@ -28,6 +28,7 @@ fi
 user=$1
 connectionToken=$2
 wks=$3
+pagelen=100
 
 BaseAPI="https://api.bitbucket.org/2.0"
 BaseAPI1="bitbucket.org"
